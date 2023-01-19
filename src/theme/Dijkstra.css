@@ -1,0 +1,36 @@
+.graph {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.node {
+  background-color: #f2f2f2;
+  border: 4px solid #c6a1a1;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  min-width: 50px;
+  min-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  position: absolute;
+  z-index: 50;
+
+}
+
+.node-name {
+  color: black;
+  font-weight: bold;
+}
+
+.node-edges {
+  margin-top: 10px;
+}
+
+.node-edges div {
+  font-size: 12px;
+  margin-top: 5px;
+}
